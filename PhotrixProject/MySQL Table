@@ -1,0 +1,14 @@
+CREATE DATABASE customer_portal;
+USE customer_portal;
+CREATE TABLE customers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  company_name VARCHAR(255),
+  company_email VARCHAR(255),
+  company_address VARCHAR(255),
+  contact1 VARCHAR(50),
+  contact2 VARCHAR(50),
+  country VARCHAR(100)
+);
+INSERT INTO customers (company_name, company_email, company_address, contact1, contact2, country)
+VALUES ('Photrix Tech', 'contact@photrix.com', 'Coimbatore', '9876543210', '8765432109', 'India');
+SELECT * FROM customers;
