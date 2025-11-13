@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Registration Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Customer Registration</h2>
+
+  <form id="customerForm">
+    <input type="text" id="companyName" placeholder="Company Name" required />
+    <input type="email" id="companyEmail" placeholder="Company Mail ID" required />
+    <input type="text" id="companyAddress" placeholder="Company Address" required />
+    <input type="text" id="contact1" placeholder="Company Contact 1" required />
+    <input type="text" id="contact2" placeholder="Company Contact 2" />
+    <input type="text" id="country" placeholder="Country" required />
+    <button type="submit">Add Customer</button>
+  </form>
+
+  <h3>Search Customers</h3>
+  <input type="text" id="searchBox" placeholder="Search by name, email, contact or country" />
+
+  <table id="customerTable">
+    <thead>
+      <tr>
+        <th>Company Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Contact 1</th>
+        <th>Contact 2</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
