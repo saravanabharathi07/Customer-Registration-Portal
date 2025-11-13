@@ -1,5 +1,4 @@
 # Personal Details
----
 - Name: Saravana Bharathy V
 - Contact No:- 7604935897
 - Gmail: saravanabharathi8@gmail.com
